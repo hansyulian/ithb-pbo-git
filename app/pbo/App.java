@@ -16,7 +16,6 @@ public class App {
     // contoh: "1112048-Hans Yulian"
     public List<String> pesertaPBO = List.of(
             // "1112048-Hans Yulian"
-<<<<<<< HEAD:app/src/main/java/pbo/App.java
            "1125025-Andhika Fatizaro Laoli",
         "1125013-Raymond Ferdinand",
         "1124013-Michelle Daniella",
@@ -26,15 +25,6 @@ public class App {
         "1125044-Viktory Gabriel Kawulur",
         "1122037-Gregorius Jerriyana Putu Riken",
         "1125015-Clay Othniel Yonathan");
-=======
-            "1125025-Andhika Fatizaro Laoli",
-            "1125013-Raymond Ferdinand",
-            "1124013-Michelle Daniella",
-            "1124004-David Christian Tanuonga",
-            "1125044-Viktory Gabriel Kawulur",
-            "1122037-Gregorius Jerriyana Putu Riken"
-    );
->>>>>>> eac043c8900039b4315638cf36cdef61345d0dfb:app/pbo/App.java
 
     public void start() {
         intro();
