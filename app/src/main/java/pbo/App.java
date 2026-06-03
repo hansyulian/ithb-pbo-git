@@ -7,12 +7,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class App {
-    public String dosen = "Hans Yulian";
+    public String dosen = "1125044-Viktory Gabriel Kawulur";
 
     // tambahkan kalian sendiri dengan format: NIM-NAMA
     // contoh: "1112048-Hans Yulian"
     public List<String> pesertaPBO = List.of(
-    // "1112048-Hans Yulian"
+    // "1125044-Viktory Gabriel Kawulur"
     );
 
     public void start() {
