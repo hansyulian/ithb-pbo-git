@@ -15,7 +15,7 @@ public class App {
             // "1112048-Hans Yulian"
             "1125025-Andhika Fatizaro Laoli",
             "1124013-Michelle Daniella",
-            "1125026-Fahad");
+            "1124048-Fahad");
 
     public void start() {
         System.out.println("Kelas PBO");
