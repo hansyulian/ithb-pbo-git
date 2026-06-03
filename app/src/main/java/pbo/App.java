@@ -13,6 +13,7 @@ public class App {
     // contoh: "1112048-Hans Yulian"
     public List<String> pesertaPBO = List.of(
             // "1112048-Hans Yulian"
+            "1124028-Raffael David",
             "1125025-Andhika Fatizaro Laoli",
             "1124013-Michelle Daniella");
 
