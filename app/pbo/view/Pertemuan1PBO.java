@@ -8,6 +8,7 @@ public class Pertemuan1PBO {
     System.out.println("Michelle : Introduction dan tutorial git");
     yappingDhika();
     iniRaffael();
+    Raymond();
   }
 
   public void yappingDhika() {
@@ -23,4 +24,9 @@ public class Pertemuan1PBO {
   public void printFahad(){
     System.out.println("Git sangat berguna agar tidak mengirim file lewat WhatsApp...");
 }
+
+public void Raymond() {
+    System.out.println("Yang saya pelajari di intro PBO adalah menggunakan github untuk mempermudah kolaborasi antara teman, belajar dasar-dasar git dan github.");
+}
+
 }
