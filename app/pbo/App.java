@@ -6,6 +6,7 @@ package pbo;
 import java.util.List;
 
 import pbo.view.Pertemuan1PBO;
+import pbo.config.Constants;
 
 public class App {
 
@@ -13,14 +14,6 @@ public class App {
 
     // tambahkan kalian sendiri dengan format: NIM-NAMA
     // contoh: "1112048-Hans Yulian"
-    public List<String> pesertaPBO = List.of(
-            "1125025-Andhika Fatizaro Laoli",
-            "1125013-Raymond Ferdinand",
-            "1124013-Michelle Daniella",
-            "1124004-David Christian Tanuonga",
-            "1125044-Viktory Gabriel Kawulur",
-            "1122037-Gregorius Jerriyana Putu Riken",
-            "1125015-Clay Othniel Yonathan");
 
     public void start() {
         intro();
@@ -32,6 +25,8 @@ public class App {
         System.out.println("Kelas PBO");
         System.out.println("Dosen: " + dosen);
         System.out.println("Peserta PBO Sejauh ini:");
+
+        List<String> pesertaPBO = Constants.pesertaPBO;
         System.out.println("Total: " + pesertaPBO.size());
         for (int i = 0; i < pesertaPBO.size(); i++) {
             System.out.println(i + 1 + ". " + pesertaPBO.get(i));
