@@ -12,7 +12,7 @@ public class App {
     // tambahkan kalian sendiri dengan format: NIM-NAMA
     // contoh: "1112048-Hans Yulian"
     public List<String> pesertaPBO = List.of(
-    // "1112048-Hans Yulian"
+     "1124004-David Christian Tanuonga"
     );
 
     public void start() {
