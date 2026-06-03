@@ -11,4 +11,9 @@ public class Pertemuan1PBO {
     System.out.println(
         "Git sangat berguna agar tidak mengirim file lewat WhatsApp, PBO berguna untuk memudahkan pembacaan kode, maintainable, dan memudahkan penggunaan method yang sama.");
   }
+
+  public void iniRaffael() {
+    System.out.println(
+        "Belajar mengenai Git untuk bagaimana caranya pull, buat branch, cara melakukan git add - commit - dan melakukan push, lalu kita melakukan pull request untuk melakukan sebuah merge...");
+  }
 }
