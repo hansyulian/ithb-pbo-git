@@ -11,7 +11,9 @@ public class App {
 
     // tambahkan kalian sendiri dengan format: NIM-NAMA
     // contoh: "1112048-Hans Yulian"
-    public List<String> pesertaPBO = new ArrayList<>();
+    public List<String> pesertaPBO = List.of(
+    // "1112048-Hans Yulian"
+    );
 
     public void start() {
         System.out.println("Kelas PBO");
