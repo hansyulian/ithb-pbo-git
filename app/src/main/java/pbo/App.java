@@ -3,10 +3,10 @@
  */
 package pbo;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class App {
+
     public String dosen = "Hans Yulian";
 
     // tambahkan kalian sendiri dengan format: NIM-NAMA
