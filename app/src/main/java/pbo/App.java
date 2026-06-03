@@ -6,13 +6,15 @@ package pbo;
 import java.util.List;
 
 public class App {
+
     public String dosen = "Hans Yulian";
 
     // tambahkan kalian sendiri dengan format: NIM-NAMA
     // contoh: "1112048-Hans Yulian"
     public List<String> pesertaPBO = List.of(
             // "1112048-Hans Yulian"
-            "1125025-Andhika Fatizaro Laoli");
+            "1125025-Andhika Fatizaro Laoli",
+            "1124013-Michelle Daniella");
 
     public void start() {
         System.out.println("Kelas PBO");
