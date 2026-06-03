@@ -7,6 +7,7 @@ public class Pertemuan1PBO {
     System.out.println("David : Yang saya pelajari di intro PBO adalah saya bisa menggunakan github dengan baik dan benar");
     System.out.println("Michelle : Introduction dan tutorial git");
     yappingDhika();
+    iniRaffael();
     Raymond();
   }
 
@@ -15,7 +16,17 @@ public class Pertemuan1PBO {
         "Git sangat berguna agar tidak mengirim file lewat WhatsApp, PBO berguna untuk memudahkan pembacaan kode, maintainable, dan memudahkan penggunaan method yang sama.");
   }
 
-  public void Raymond() {
-    System.out.println("Yang saya pelajari di intro PBO adalah menggunakan github untuk mempermudah kolaborasi antara teman, belajar dasar-dasar git dan github.");
+  public void iniRaffael() {
+    System.out.println(
+        "Belajar mengenai Git untuk bagaimana caranya pull, buat branch, cara melakukan git add - commit - dan melakukan push, lalu kita melakukan pull request untuk melakukan sebuah merge...");
   }
+
+  public void printFahad(){
+    System.out.println("Git sangat berguna agar tidak mengirim file lewat WhatsApp...");
+}
+
+public void Raymond() {
+    System.out.println("Yang saya pelajari di intro PBO adalah menggunakan github untuk mempermudah kolaborasi antara teman, belajar dasar-dasar git dan github.");
+}
+
 }
