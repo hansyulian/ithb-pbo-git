@@ -15,7 +15,9 @@ public class App {
             // "1112048-Hans Yulian"
             "1125025-Andhika Fatizaro Laoli",
             "1125013-Raymond Ferdinand",
-            "1124013-Michelle Daniella");
+            "1124013-Michelle Daniella",
+    "1125044-Viktory Gabriel Kawulur"
+    );
 
     public void start() {
         System.out.println("Kelas PBO");
