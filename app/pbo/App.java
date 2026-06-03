@@ -5,6 +5,9 @@ package pbo;
 
 import java.util.List;
 
+import pbo.view.Pertemuan1PBO;
+import pbo.config.Constants;
+
 public class App {
 
     public String dosen = "Hans Yulian";
@@ -22,13 +25,30 @@ public class App {
     );
 
     public void start() {
+        intro();
+        printSeparator();
+        printPertemuan1PBO();
+    }
+
+    private void intro() {
         System.out.println("Kelas PBO");
         System.out.println("Dosen: " + dosen);
         System.out.println("Peserta PBO Sejauh ini:");
+
+        List<String> pesertaPBO = Constants.pesertaPBO;
         System.out.println("Total: " + pesertaPBO.size());
         for (int i = 0; i < pesertaPBO.size(); i++) {
             System.out.println(i + 1 + ". " + pesertaPBO.get(i));
         }
+    }
+
+    private void printSeparator() {
+        System.out.println("--------------------");
+    }
+
+    private void printPertemuan1PBO() {
+        Pertemuan1PBO pertemuan1 = new Pertemuan1PBO();
+        pertemuan1.print();
     }
 
     public static void main(String[] args) {
