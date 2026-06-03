@@ -12,11 +12,8 @@ public class App {
     // tambahkan kalian sendiri dengan format: NIM-NAMA
     // contoh: "1112048-Hans Yulian"
     public List<String> pesertaPBO = List.of(
-            // "1112048-Hans Yulian"
-            "1124028-Raffael David",
-            "1125025-Andhika Fatizaro Laoli",
-            "1124013-Michelle Daniella",
-            "1125026-Fahad");
+    "1125044-Viktory Gabriel Kawulur"
+    );
 
     public void start() {
         System.out.println("Kelas PBO");
