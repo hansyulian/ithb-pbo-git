@@ -14,6 +14,7 @@ public class App {
     public List<String> pesertaPBO = List.of(
             // "1112048-Hans Yulian"
             "1125025-Andhika Fatizaro Laoli",
+            "1125013-Raymond Ferdinand",
             "1124013-Michelle Daniella");
 
     public void start() {
